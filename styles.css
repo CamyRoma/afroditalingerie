@@ -1,0 +1,111 @@
+body {  
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    background-color: white; 
+    color: #333; 
+}
+
+header {
+    background-image: url("Floress.avif"); 
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: #fff; 
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row; 
+    justify-content: justify-center; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 0 0 calc(50% - 10px); 
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 20px; 
+
+}
+
+
+.producto img {
+    height: 400px;
+}
+
+.producto h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+
+
+.producto .precio {
+    font-size: 18px;
+    color: #e80087; 
+    margin: 10px 0;
+}
+
+#modoOscuro{
+    background-color: #e80087;  
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+body.modo-oscuro {
+    background-color: #333; 
+    color: #fff; 
+}
+
+button {
+    background-color: #e80087; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
