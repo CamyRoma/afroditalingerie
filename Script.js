@@ -4,6 +4,6 @@ function toggleModoOscuro() {
 }
 const botonModoOscuro = document.getElementById("modoOscuro");
 botonModoOscuro.addEventListener("click", toggleModoOscuro);
-window.onload = function() {
+boton.addEventListener("click")() {
     alert("¡Bienvenid@ a nuestra tienda!");
 }
